@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Checking project files..."
+
+if [ ! -f "README.md" ]; then
+  echo "README.md missing"
+  exit 1
+fi
+
+if [ ! -f "index.html" ]; then
+  echo "index.html missing"
+  exit 1
+fi
+
+if [ ! -f "styles.css" ]; then
+  echo "styles.css missing"
+  exit 1
+fi
+
+if [ ! -f "script.js" ]; then
+  echo "script.js missing"
+  exit 1
+fi
+
+echo "Pre-commit check passed"
+exit 0
