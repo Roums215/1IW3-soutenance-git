@@ -1,3 +1,5 @@
+![Lint Check](https://github.com/Roums215/1IW3-soutenance-git/actions/workflows/lint.yml/badge.svg)
+
 # 1IW3-soutenance-git
 ![GitHub repo size](https://img.shields.io/github/repo-size/Roums215/1IW3-soutenance-git)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Roums215/1IW3-soutenance-git)
@@ -12,4 +14,4 @@ This repository is used for the Git presentation project.
 - Fayad
 
 ## Goal
-Practice Git workflow with issues, branches and pull requests.
+Practice Git workflow with issues, branches and pull r
