@@ -1,15 +1,33 @@
 # 1IW3-soutenance-git
-![GitHub repo size](https://img.shields.io/github/repo-size/Roums215/1IW3-soutenance-git)
-![GitHub last commit](https://img.shields.io/github/last-commit/Roums215/1IW3-soutenance-git)
-This project is a Git workflow practice repository for the soutenance.
 
+Ce dépôt est un **projet pratique pour maîtriser les workflows Git** dans le cadre de notre soutenance.
 
-## Overview
-This repository is used for the Git presentation project.
+## Objectif
 
-## Team
+- Apprendre à gérer des **issues** et **branches**
+- Créer des **pull requests**
+- Automatiser des vérifications avec **GitHub Actions**
+
+## Équipe
+
+- Fayad  
 - Iulian
-- Fayad
 
-## Goal
-Practice Git workflow with issues, branches and pull requests.
+## Contenu du projet
+
+- `.github/` → contient les workflows GitHub Actions  
+- `scripts/` → scripts d’exemple  
+- `DOCUMENTATION.md` → instructions détaillées  
+- `CONTRIBUTING.md` → guide pour contribuer  
+
+## Workflow
+
+1. Créer une branche pour chaque issue
+2. Modifier les fichiers nécessaires
+3. Committer avec message clair et lié à l’issue
+4. Ouvrir une Pull Request
+5. Merge et vérification automatique avec CI
+
+## Badges
+
+![Lint Check](https://github.com/Roums215/1IW3-soutenance-git/actions/workflows/lint.yml/badge.svg)
