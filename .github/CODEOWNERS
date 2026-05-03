@@ -1,0 +1,24 @@
+# CODEOWNERS
+# Format : <pattern> <@owner1> <@owner2>
+
+# Owners par défaut sur tout le projet (review obligatoire des deux)
+*                       @Roums215 @Alphadragnir
+
+# Documentation : Iulian
+*.md                    @Roums215
+CONTRIBUTING.md         @Roums215
+CODE_OF_CONDUCT.md      @Roums215
+LICENSE                 @Roums215
+
+# Templates GitHub : Iulian
+/.github/ISSUE_TEMPLATE/ @Roums215
+/.github/pull_request_template.md @Roums215
+
+# CI et hooks : Fayad
+/.github/workflows/      @Alphadragnir
+/.githooks/              @Alphadragnir
+
+# Code source : les deux
+*.html                  @Roums215 @Alphadragnir
+*.js                    @Roums215 @Alphadragnir
+*.css                   @Roums215 @Alphadragnir
